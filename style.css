@@ -1,0 +1,24 @@
+.container{
+    border:5px;
+    border-radius:29%;
+}
+#num1{
+    margin-top: 3px;
+    margin-left: 56px;
+    margin-right: 5px;
+    width: 122px;
+}
+#num2{
+    margin-top: 3px;
+    margin-right: 56px;
+    width: 122px;
+}
+button{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.inst{
+    margin: 2px;
+    color: rgb(149, 144, 144);
+    font-size:smaller;
+}

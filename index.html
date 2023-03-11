@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="calc.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/CSS">
+</head>
+<body>
+    <center>
+        <h1>Calculator</h1>
+        <div>
+            <p class="inst">
+                (input two numbers you want to operate on)
+            </p>
+        </div>
+        <div>
+            <span>
+                <input type="text" id="num1" placeholder="input first value "> 
+                <input type="text" id="num2" placeholder="input second value">
+            </span>
+        </div>
+        <div>
+            <span>
+                <button id="add" onclick="addFunction();">+</button>
+                <button id="sub" onclick="subFunction();">-</button>
+                <button id="mult" onclick="multFunction();">*</button>
+                <button id="divd" onclick="divdFunction();">/</button>
+            </span>
+        </div>
+        <p class="inst">each of these buttons correspond to their arithmetic operations</p>
+        <p class="inst">choosing an operation would clear the previous results and display the new one</p>
+        <p id="rslt">Results will be displayed here.</p>
+        <p class="inst">to operate on a different set of numbers, you can refresh the page or directly type them in the box</p>
+    </center>
+</body>
+</html>
